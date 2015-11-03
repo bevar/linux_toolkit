@@ -1,5 +1,9 @@
-# Linux工具箱
+# Linux toolkit
 
-1. iptables配置: sysconfig/firewall.sh
+1. iptables configurations: clear default firewall rules, open port 22 and 80 for ssh server and www server
 
-> 清除默认防火墙规则，开放22，80端口用作ssh server和www server。
+> sysconfig/firewall.sh
+
+2. change system variable to my favorite value
+
+> system_variables.sh
